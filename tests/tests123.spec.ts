@@ -12,5 +12,6 @@ test("Using cssselector",async({page})=>{
     await page.waitForTimeout(2000)
     await page.locator("[type='checkbox']").click()
     await page.locator("[name='submit']").click()
+    // await page.locator("[name='submit']").click()
 })
 
